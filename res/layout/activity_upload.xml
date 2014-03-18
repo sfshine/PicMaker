@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/tv_eletitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:text="Upload"
+        android:textColor="#2AC3E8"
+        android:textSize="20sp" >
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/ll_main"
+        android:layout_width="match_parent"
+        android:layout_height="300dip"
+        android:layout_marginTop="60dip"
+        android:baselineAligned="false"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="20dp" >
+
+                <Button
+                    android:id="@+id/btn_chose_file"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_marginTop="17dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/bkg_grey_stroke"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="btndsregester"
+                    android:text="Choose your XtickerX elements to upload" />
+
+                <Button
+                    android:id="@+id/btn_chose_cat"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_marginTop="20dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/bkg_grey_stroke"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="btnmyspace"
+                    android:text="Select a category"
+                    android:textColor="#000"
+                    android:textSize="17dip" />
+
+                <Button
+                    android:id="@+id/btn_upload"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_marginTop="20dip"
+                    android:layout_weight="1"
+                    android:background="#4BCCEC"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="btnmyspace"
+                    android:text="Upload Now"
+                    android:textColor="#FFF"
+                    android:textSize="20dip" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dip"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/ll_main" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/uploadmsg"
+            android:textColor="#DD4BCCEC"
+            android:textSize="13dp" />
+    </ScrollView>
+
+</RelativeLayout>

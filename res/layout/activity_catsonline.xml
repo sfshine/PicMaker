@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="Download"
+        android:textColor="#2AC3E8"
+        android:textSize="20sp" />
+
+    <GridView
+        android:id="@+id/grid_cat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="30dip"
+        android:horizontalSpacing="-1px"
+        android:verticalSpacing="-1px" >
+    </GridView>
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dip"
+        android:layout_marginTop="60dip"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:id="@+id/fr_shopframe"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2" >
+
+            <LinearLayout
+                android:id="@+id/ll_shopmenu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="50dp" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bkg_grey_stroke"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="payForSpace"
+                    android:text="PayForSpace"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="-1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bkg_grey_stroke"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="payForUpload"
+                    android:text="PayForUpload"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="-1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bkg_grey_stroke"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="payForStar"
+                    android:text="PayForStar"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bkg_shopping" />
+
+</RelativeLayout>

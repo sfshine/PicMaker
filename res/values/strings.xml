@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">XtickerX Pro</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="uploadmsg">Picture Format: PNG\nPicture Color:RGB\nAbout the Picture: 300x300 pixels\nAbout the Size:100k\n\nDisclaimer: free space resources in the station offers are reprinted from the Internet, and all copyright related website owned.</string>
+
+</resources>

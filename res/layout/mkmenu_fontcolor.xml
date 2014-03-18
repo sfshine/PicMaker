@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/bkg_fontcolortools" >
+	<TextView
+		android:id="@+id/btn_color_1"
+		android:layout_weight="1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:clickable="true" />
+	<TextView
+	    android:id="@+id/btn_color_2"
+		android:layout_weight="1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:clickable="true" />
+	<TextView
+	  android:id="@+id/btn_color_3"
+		android:layout_weight="1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:clickable="true" />
+	<TextView
+	      android:id="@+id/btn_color_4"
+		android:layout_weight="1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:clickable="true" />
+	<TextView
+	      android:id="@+id/btn_color_5"
+		android:layout_weight="1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:clickable="true" />
+	<TextView
+	      android:id="@+id/btn_color_6"
+		
+		android:layout_weight="1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:clickable="true" />
+	<TextView
+	      android:id="@+id/btn_color_7"
+		android:layout_weight="1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:clickable="true" />
+	<TextView
+	      android:id="@+id/btn_color_8"
+		android:layout_weight="1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:clickable="true" />
+	<TextView
+	      android:id="@+id/btn_color_9"
+		android:layout_weight="1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:clickable="true" />
+	<TextView
+	      android:id="@+id/btn_color_10"
+		android:layout_weight="1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:clickable="true" />
+</LinearLayout>

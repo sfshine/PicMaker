@@ -1,0 +1,18 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.NoTitleBar"></style>
+
+    <style name="style_btn_10menu">
+        <item name="android:layout_weight">1</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <style name="Translucent_NoTitle" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+</resources>
